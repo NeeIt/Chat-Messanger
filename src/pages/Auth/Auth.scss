@@ -1,0 +1,41 @@
+.auth {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    text-align: center;
+  .whiteBlock {
+    max-width:430px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__top{
+      font-style:normal;
+      text-align: center;
+      h2{
+          font-size:21px;
+          letter-spacing: 0.13px;
+          color:#202020;
+          margin-bottom: 5px;
+      }
+      p{
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 0.1px;
+          opacity: 0.5;
+      }
+  }
+  .button{
+      text-transform: uppercase;
+  }
+  .login-form{
+      width:100%;
+      .ant-form-item:last-of-type{
+        margin-bottom:0px;
+      }
+  }
+  
+}

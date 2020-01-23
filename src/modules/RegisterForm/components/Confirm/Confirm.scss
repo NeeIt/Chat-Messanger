@@ -1,0 +1,23 @@
+.confirmBlock{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    height:400px;
+
+    .anticon{
+        font-size:50px;
+    }
+    h3{
+        font-size:22px;
+        color:#202020;
+        margin-top:10px;
+    }
+    p{
+        font-size: 14px;
+        opacity:0.5;
+        margin-top:5px;
+    }
+    button{
+        margin-top:5px;
+    }
+}
